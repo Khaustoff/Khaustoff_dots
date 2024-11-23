@@ -1,0 +1,8 @@
+[manager]
+sort_by = "natural"
+
+[opener]
+edit = [
+	{ run = 'nvim "$@"', block = true },
+]
+

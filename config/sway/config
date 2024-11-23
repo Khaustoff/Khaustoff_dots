@@ -1,0 +1,89 @@
+# Hotkeys
+set $mod Mod4
+set $mod Mod1
+set $term foot
+
+## Progs
+bindsym $mod+Return exec $term
+bindsym --to-code $mod+q kill
+bindsym $mod+f exec firefox
+bindsym $mod+c exec telegram-desktop
+bindsym Print exec grim ~/Pictures/Screenshots/screen-"$(date +%s)".jpg
+bindsym $mod+e exec emacs
+bindsym $mod+z exec zathura
+bindsym $mod+g exec gimp
+
+## Moving
+bindsym  --to-code {
+ Mod4+f fullscreen  
+ $mod+j focus left
+ $mod+k focus right
+ $mod+Shift+h move left
+ $mod+Shift+j move down
+ $mod+Shift+k move up
+ $mod+Shift+l move right
+}
+
+### Reboot and Poweroff
+bindsym --to-code $mod+Ctrl+r exec reboot
+bindsym --to-code $mod+Ctrl+p exec poweroff
+
+
+## Work tables
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+
+# Autostart
+exec $term
+exec swww-daemon
+
+# Colors
+set $green #98971a
+set $grey #928474
+
+# Border
+titlebar_padding 1
+font pango:Any_font_name 0.01
+titlebar_border_thickness 0
+client.focused   $green $green $green $green $green 
+client.unfocused $grey $grey $grey $grey $grey 
+
+# Keyboard
+input * {
+    xkb_layout us,ru
+    xkb_options grp:caps_toggle
+}
+
+# Hide cursor in 8 seconds
+seat * hide_cursor 8000
+
+# Floating windows
+bindsym --to-code $mod+Shift+space floating toggle
+bindsym --to-code $mod+r mode "resize"
+
+mode "resize" {
+    bindsym h resize shrink width 10px
+    bindsym j resize grow height 10px
+    bindsym k resize shrink height 10px
+    bindsym l resize grow width 10px
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# Gaps
+gaps inner 5
+
+# Spiral
+for_window [class=".*"] split toggle
+for_window [app_id=".*"] split toggle
+
