@@ -7,11 +7,11 @@
       "palette": 234
     },
     "foreground": {
-      "hex": "#282828",
+      "hex": "#3c3836",
       "palette": 254
     },
     "focused_border": {
-      "hex": "#cc242d",
+      "hex": "#9d0006",
       "palette": 160
     },
     "text_focused": {
@@ -79,7 +79,7 @@
       "palette": 234
     },
     "button_background_active": {
-      "hex": "#9d0006",
+      "hex": "#282828",
       "palette": 64
     },
     "button_foreground_active": {

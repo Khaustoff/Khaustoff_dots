@@ -8,26 +8,23 @@ What is this? These are my working configs. I use nixos, but everything is not d
 
 [[./editor.jpg]]
 
-[[./ide&templates.jpg]]
-
 [[./music.jpg]]
 ** Assembly Components
-|-----------+----------------------------------------------------|
-| Sway      | Tiling window manager.                             |
-| Neovim    | My default text editor, but you can use it as ide. |
-| Emacs     | My ide for C and note taker.                       |
-| Foot      | My favorite terminal for wayland.                  |
-| Kitty     | Reserve terminal.                                  |
-| Musikcube | Music player (two my custom themes).               |
-| cli-vis.  | Audio visualizer (two my custom themes).           |
-| Yazi      | File manager (one my custom theme).                |
-| Zathura   | Pdf viewer                                         |
-|-----------+----------------------------------------------------|
+|---------------+----------------------------------------------------|
+| Sway          | Tiling window manager.                             |
+| Neovim        | My default text editor, but you can use it as ide. |
+| [[https://github.com/Khaustoff/emacs_Khaustoff][Emacs]]         | My ide for C and note taker.                       |
+| Foot          | My favorite terminal for wayland.                  |
+| Kitty         | Reserve terminal.                                  |
+| Musikcube     | Music player (two my custom themes).               |
+| cli-visulizer | Audio visualizer (two my custom themes).           |
+| Yazi          | File manager (one my custom theme).                |
+| Zathura       | Pdf viewer                                         |
+|---------------+----------------------------------------------------|
 And you can see my wallpaper collection.
 
 ** Recommendations
- [[https://github.com/neovim/neovim][Neovim]] 0.10+ for correct operation of all plugins.
- [[https://www.gnu.org/software/emacs/][Emacs]] 29+ ([[./emacs_config/README.org][more details in the readme for it]]). 
+ [[https://github.com/neovim/neovim][Neovim]] 0.10+ for correct operation of all plugins. 
  [[https://github.com/LGFae/swww][Swww]] for wallpapers.
  Zathura-pdf-mupdf or zathura-pdf-poppler for correct operation of zathura (if you don't use nixos).
 
@@ -35,9 +32,9 @@ And you can see my wallpaper collection.
 Okay, everything is simple here, you need to copy the repository, go to this directory and run the following commands:
 
 #+begin_src sh
-  cp ./config/* ~/.config/
-  # for emacs in the readme for it (look above)
-  cp ./Wallpapers/ ~/
+  cp -r ./config/* ~/.config/
+  mv ~/.config/musikcube-themes ~/.config/musikcube/themes 
+  cp -r ./Wallpapers/ ~/
 #+end_src
 
 Optionally look at my wallpaper colletion.
