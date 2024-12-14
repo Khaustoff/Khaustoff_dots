@@ -12,7 +12,7 @@ What is this? These are my working configs. I use nixos, but everything is not d
 ** Assembly Components
 |---------------+----------------------------------------------------|
 | Sway          | Tiling window manager.                             |
-| Neovim        | My default text editor, but you can use it as ide. |
+| [[https://github.com/Khaustoff/neoide][Neovim]]        | My default text editor, but you can use it as ide. |
 | [[https://github.com/Khaustoff/emacs_Khaustoff][Emacs]]         | My ide for C and note taker.                       |
 | Foot          | My favorite terminal for wayland.                  |
 | Kitty         | Reserve terminal.                                  |
