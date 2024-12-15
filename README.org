@@ -23,8 +23,7 @@ What is this? These are my working configs. I use nixos, but everything is not d
 |---------------+----------------------------------------------------|
 And you can see my wallpaper collection.
 
-** Recommendations
- [[https://github.com/neovim/neovim][Neovim]] 0.10+ for correct operation of all plugins. 
+** Recommendations 
  [[https://github.com/LGFae/swww][Swww]] for wallpapers.
  Zathura-pdf-mupdf or zathura-pdf-poppler for correct operation of zathura (if you don't use nixos).
 
