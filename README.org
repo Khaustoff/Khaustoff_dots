@@ -44,7 +44,7 @@ Okay, everything is simple here, you need to copy the repository, go to this dir
 ** Mtab config
 Okay, if you want install my config you need:
 *** open file [[./mtab]]
- *copy its contents*
+*** *copy its contents*
 *** open your browser and option in extention mtab, it will look something like this
 [[./mtab_options.jpg]]
 *** and finaly scroll to the very bottom, there click the button *import & save* and paste the contents of the config
