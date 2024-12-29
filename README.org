@@ -26,10 +26,10 @@ What is this? These are my working configs. Now I use gentoo, and I really like 
 |-------------------+----------------------------------------------------|
 
 ** Recommendations
- [[https://www.nerdfonts.com/font-downloads][Nerd fonts]] (for icons)
- [[https://github.com/LGFae/swww][Swww]] (for set wallpapers)
- [[https://github.com/maxhu08/mtab][Mtab extention]] ([[https://addons.mozilla.org/en-US/firefox/addon/mtab/][firefox]]/[[https://chromewebstore.google.com/detail/mtab/fdaphilojaklgkoocegabckfanjoacjg][chrome]])
- Zathura-pdf-mupdf or zathura-pdf-poppler for correct operation of zathura (if you don't use nixos).
+1. [[https://www.nerdfonts.com/font-downloads][Nerd fonts]] (for icons)
+2. [[https://github.com/LGFae/swww][Swww]] (for set wallpapers)
+3. [[https://github.com/maxhu08/mtab][Mtab extention]] ([[https://addons.mozilla.org/en-US/firefox/addon/mtab/][firefox]]/[[https://chromewebstore.google.com/detail/mtab/fdaphilojaklgkoocegabckfanjoacjg][chrome]])
+4. Zathura-pdf-mupdf or zathura-pdf-poppler for correct operation of zathura (if you don't use nixos).
  
 ** Install
 Okay, everything is simple here, you need to copy the repository, go to this directory and run the following commands:
