@@ -47,6 +47,6 @@ Okay, if you want install my config you need:
 *** =copy it's contents=
 *** open your browser and options in extention mtab, it will look something like this
 [[./mtab_options.jpg]]
-*** and finaly scroll to the very bottom, there click the button =import & save= and paste the contents of the config
+*** finaly scroll to the very bottom, there click the button =import & save= and paste the contents of the config
 ** P.S.
 Optionally look at my wallpaper colletion:)
