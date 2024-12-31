@@ -16,6 +16,7 @@ What is this? These are my working configs. Now I use gentoo, and I really like 
 | [[https://github.com/Khaustoff/emacs_Khaustoff][Emacs]]             | My ide for C and note taker.                       |
 | [[https://github.com/Khaustoff/neoide][Neovim]]            | My default text editor, but you can use it as ide. |
 | Firefox with mtab | My favorite browser                                |
+| Telegram desktop  | [[https://github.com/indev29/telegram-gruvbox][Gruvbox themes]]                                     |
 | Foot              | My favorite terminal for wayland.                  |
 | Kitty             | Reserve terminal.                                  |
 | Musikcube         | Music player (two my custom themes).               |
