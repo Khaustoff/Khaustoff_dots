@@ -1,39 +1,53 @@
 * Khaustoff dots
 ** What is this
-What is this? These are my working configs. I use nixos, but everything is not done through the home manager,
-	*THE CONFIGS ARE ABSOLUTELY COMPATIBLE WITH ALL OTHER SYSTEMS,* so they can be used on nixos and gentoo and arch.
+What is this? These are my working configs. Now I use gentoo, and I really like it.
 
 ** Preview
 [[./main.jpg]]
-
-[[./editor.jpg]]
-
+[[./org.jpg]]
+[[./code.jpg]]
+[[./firefox.jpg]]
 [[./music.jpg]]
+
 ** Assembly Components
-|---------------+----------------------------------------------------|
-| Sway          | Tiling window manager.                             |
-| [[https://github.com/Khaustoff/neoide][Neovim]]        | My default text editor, but you can use it as ide. |
-| [[https://github.com/Khaustoff/emacs_Khaustoff][Emacs]]         | My ide for C and note taker.                       |
-| Foot          | My favorite terminal for wayland.                  |
-| Kitty         | Reserve terminal.                                  |
-| Musikcube     | Music player (two my custom themes).               |
-| cli-visulizer | Audio visualizer (two my custom themes).           |
-| Yazi          | File manager (one my custom theme).                |
-| Zathura       | Pdf viewer                                         |
-|---------------+----------------------------------------------------|
-And you can see my wallpaper collection.
+|-------------------+----------------------------------------------------|
+| Linux Kernel 6.62 | My custom kernel config                            |
+| Sway              | Tiling window manager.                             |
+| [[https://github.com/Khaustoff/emacs_Khaustoff][Emacs]]             | My ide for C and note taker.                       |
+| [[https://github.com/Khaustoff/neoide][Neovim]]            | My default text editor, but you can use it as ide. |
+| Firefox with mtab | My favorite browser                                |
+| Telegram desktop  | [[https://github.com/indev29/telegram-gruvbox][Gruvbox themes]]                                     |
+| Foot              | My favorite terminal for wayland.                  |
+| Kitty             | Reserve terminal.                                  |
+| Musikcube         | Music player (two my custom themes).               |
+| Cava              | Audio visualizer (default with my terminal theme)  |
+| Yazi              | File manager (one my custom theme).                |
+| Zathura           | Pdf viewer                                         |
+| Swww              | Changer wallpapers                                 |
+|-------------------+----------------------------------------------------|
 
-** Recommendations 
- [[https://github.com/LGFae/swww][Swww]] for wallpapers.
- Zathura-pdf-mupdf or zathura-pdf-poppler for correct operation of zathura (if you don't use nixos).
-
+** Recommendations
+1. [[https://www.nerdfonts.com/font-downloads][Nerd fonts]] (for icons)
+2. [[https://github.com/LGFae/swww][Swww]] (for set wallpapers)
+3. [[https://github.com/maxhu08/mtab][Mtab extention]] ([[https://addons.mozilla.org/en-US/firefox/addon/mtab/][firefox]]/[[https://chromewebstore.google.com/detail/mtab/fdaphilojaklgkoocegabckfanjoacjg][chrome]])
+4. Zathura-pdf-mupdf or zathura-pdf-poppler for correct operation of zathura (if you don't use nixos).
+ 
 ** Install
 Okay, everything is simple here, you need to copy the repository, go to this directory and run the following commands:
 
+** Configs
 #+begin_src sh
   cp -r ./config/* ~/.config/
   mv ~/.config/musikcube-themes ~/.config/musikcube/themes 
   cp -r ./Wallpapers/ ~/
 #+end_src
 
-Optionally look at my wallpaper colletion.
+** Mtab config
+Okay, if you want install my config you need:
+*** open file [[./mtab]]
+*** =copy it's contents=
+*** open your browser and options in extention mtab, it will look something like this
+[[./mtab_options.jpg]]
+*** finaly scroll to the very bottom, there click the button =import & save= and paste the contents of the config
+** P.S.
+Optionally look at my wallpaper colletion:)
