@@ -43,7 +43,7 @@ Okay, everything is simple here, you need to copy the repository, go to this dir
 
 ** Mtab config
 Okay, if you want install my config you need:
-*** open file [[./mtab]]
+*** open mtab file (light or dark) 
 *** =copy it's contents=
 *** open your browser and options in extention mtab, it will look something like this
 [[./mtab_options.jpg]]
