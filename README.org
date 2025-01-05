@@ -38,7 +38,6 @@ Okay, everything is simple here, you need to copy the repository, go to this dir
 ** Configs
 #+begin_src sh
   cp -r ./config/* ~/.config/
-  mv ~/.config/musikcube-themes ~/.config/musikcube/themes 
   cp -r ./Wallpapers/ ~/
 #+end_src
 
