@@ -19,7 +19,7 @@ What is this? These are my working configs. Now I use gentoo, and I really like 
 | Telegram desktop  | [[https://github.com/indev29/telegram-gruvbox][Gruvbox themes]]                                     |
 | Foot              | My favorite terminal for wayland.                  |
 | Kitty             | Reserve terminal.                                  |
-| Musikcube         | Music player ([[git@github.com:Khaustoff/musikcube-gruvbox-themes.git][three my custom themes]]).             |
+| Musikcube         | Music player ([[https://github.com/Khaustoff/musikcube-gruvbox-themes][three my custom themes]]).             |
 | Cava              | Audio visualizer (default with my terminal theme)  |
 | Yazi              | File manager (one my custom theme).                |
 | Zathura           | Pdf viewer                                         |
