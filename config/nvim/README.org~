@@ -1,0 +1,31 @@
+* Neoide
+** What is this
+Hello github, this is my update neovim config. I've stopped using neovim,
+			   but I still find it a very useful text editor.
+
+** Preview
+[[./Preview.jpg]]
+[[./Code.jpg]]
+
+** Plugins
+|-----------------------+----------------------|
+| lazy                  | plugin manager       |
+| gruvbox material      | theme                |
+| lsp zero              | lsp and cmp settings |
+| mason                 | lsp package manager  |
+| treesitter            | syntax highlighting  |
+| alpha                 | welcome screen       |
+| telescope             | file manager         |
+| nvim highlight colors | code colors          |
+|-----------------------+----------------------|
+
+** Requiremnts
+1. [[https://github.com/neovim/neovim][Neovim 10+]]
+2. [[https://github.com/clangd/clangd][Clangd]] (lsp for C, C++, Objective C)
+
+** Installation
+#+begin_src sh
+  git clone git@github.com:Khaustoff/neoide.git
+  cp -r ~/neoide/nvim/ ~/.config/
+  nvim
+#+end_src
