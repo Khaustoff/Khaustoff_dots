@@ -37,6 +37,9 @@ Okay, everything is simple here, you need to copy the repository, go to this dir
 
 ** Configs
 #+begin_src sh
+  git clone git@github.com:Khaustoff/Khaustoff_dots.git
+  cd ./Khaustoff_dots/
+
   cp -r ./config/* ~/.config/
   cp -r ./Wallpapers/ ~/
 #+end_src
